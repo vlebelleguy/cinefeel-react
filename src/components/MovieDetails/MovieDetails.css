@@ -118,8 +118,9 @@
 }
 
 .poster {
-  width: 150px;
   object-fit: contain;
+  margin-left: 20px;
+  width: 150px;
 }
 
 .share_section {
@@ -139,7 +140,7 @@
 }
 
 .share_button {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 @media (max-width: 600px) {

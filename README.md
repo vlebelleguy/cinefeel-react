@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+<div align="center">
+<samp>
+<img src="https://i.ibb.co/1sM4PjV/cinefeel-logo.png">
+<h1>Cinefeel - React</h1>
+<img src="https://i.ibb.co/6wVzrDT/cinefeel-mockup.gif">
+<h3>🍿 <ins>About This Project</ins> 🍿</h3>
+<p>Website created as part of a Front-End technical test and using the API of <a href="https://www.themoviedb.org/">The Movie Database (TMDb)</a>. The app was built with React and allows you to find a movie with a search bar or display one randomly using the dice button. If you find a movie you'd like to see, you can also share it on Facebook, Twitter, Pinterest, WhatsApp or via email.</p>
+<h3>📚 <ins>Stacks</ins> 📚</h3>
+<img src="https://img.shields.io/badge/-JavaScript-ffd32a?style=for-the-badge&logo=JavaScript&logoColor=black">
+<img src="https://img.shields.io/badge/-React-ffd32a?style=for-the-badge&logo=React&logoColor=black">
+<img src="https://img.shields.io/badge/-HTML5-ffd32a?style=for-the-badge&logo=HTML5&logoColor=black">
+<img src="https://img.shields.io/badge/-CSS3-ffd32a?style=for-the-badge&logo=CSS3&logoColor=black">
+<img src="https://img.shields.io/badge/-Netlify-ffd32a?style=for-the-badge&logo=Netlify&logoColor=black">
+<h3>📦 <ins>Packages</ins> 📦</h3>
+<img src="https://img.shields.io/badge/-axios-ffd32a?style=for-the-badge">
+<img src="https://img.shields.io/badge/-react--icons-ffd32a?style=for-the-badge">
+<img src="https://img.shields.io/badge/-react--share-ffd32a?style=for-the-badge">
+<h3>🛠️ <ins>Installation</ins> 🛠️</h3>
+<p>Be sure, you have installed all dependencies to run the project.</p>
+<h4>Clone The Repository</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`git clone https://github.com/vlebelleguy/cinefeel-react.git`
+      
+`cd cinefeel-react`
+      
+<h4>Install The Packages</h4>
+      
+`yarn`
+      
+<h4>Run The Project</h4>
+      
+`yarn start`
+</samp>
+</div>

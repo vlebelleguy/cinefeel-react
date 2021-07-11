@@ -1,5 +1,5 @@
 .random_button {
-  box-shadow: 0 0 20px #ffd32a;
+  animation: glowing 5000ms infinite;
   background-color: #ffd32a;
   justify-content: center;
   border-radius: 50px;

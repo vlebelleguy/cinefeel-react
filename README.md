@@ -4,7 +4,7 @@
 <h1>Cinefeel - React</h1>
 <img src="https://i.ibb.co/6wVzrDT/cinefeel-mockup.gif">
 <h3>🍿 <ins>About This Project</ins> 🍿</h3>
-<p>Website created as part of a Front-End technical test and using the API of <a href="https://www.themoviedb.org/">The Movie Database (TMDb)</a>. The app was built with React and allows you to find a movie with a search bar or display one randomly using the dice button. If you find a movie you'd like to see, you can also share it on Facebook, Twitter, Pinterest, WhatsApp or via email.</p>
+<p>Website created as part of a technical test and using the API of <a href="https://www.themoviedb.org/">The Movie Database (TMDb)</a>. The app was built with React and allows you to find a movie with a search bar or display one randomly using the dice button. If you find a movie you'd like to see, you can also share it on Facebook, Twitter, Pinterest, WhatsApp or via email.</p>
 <h3>📚 <ins>Stacks</ins> 📚</h3>
 <img src="https://img.shields.io/badge/-JavaScript-ffd32a?style=for-the-badge&logo=JavaScript&logoColor=black">
 <img src="https://img.shields.io/badge/-React-ffd32a?style=for-the-badge&logo=React&logoColor=black">

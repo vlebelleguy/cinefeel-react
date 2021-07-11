@@ -145,7 +145,7 @@
 @media (max-width: 600px) {
   .container {
     justify-content: center;
-    margin-top: 175px;
+    margin-top: 200px;
     display: flex;
     width: 100%;
   }
@@ -175,19 +175,27 @@
   .tagline {
     text-align: center;
   }
+  .left_wrap {
+    width: 300px;
+  }
   .story {
     text-align: center;
   }
   .overview {
     text-align: center;
+    overflow: hidden;
   }
   .poster {
     margin-top: 30px;
   }
   .share_section {
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+  }
+  .share_title {
+    text-align: center;
+    font-size: 20px;
   }
   .icons_wrap {
     margin-top: 15px;

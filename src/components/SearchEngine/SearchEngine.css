@@ -38,3 +38,16 @@
 .movie_list {
   position: fixed;
 }
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .search_input {
+    margin-top: 25px;
+  }
+}

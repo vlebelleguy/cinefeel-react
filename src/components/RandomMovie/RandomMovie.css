@@ -31,3 +31,13 @@
     box-shadow: 0 0 -10px #ffd32a;
   }
 }
+
+@media (max-width: 600px) {
+  .random_button {
+    width: 40px;
+    height: 40px;
+    bottom: 30;
+    left: unset;
+    right: 30px;
+  }
+}

@@ -141,3 +141,55 @@
 .share_button {
   margin-right: 10px;
 }
+
+@media (max-width: 600px) {
+  .container {
+    justify-content: center;
+    margin-top: 175px;
+    display: flex;
+    width: 100%;
+  }
+  .movie_details {
+    align-items: center;
+    margin-right: 0;
+    width: 90%;
+  }
+  .rating {
+    justify-content: center;
+  }
+  .sub_details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .movie_info {
+    margin-top: 5px;
+  }
+  .about_section {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    text-align: center;
+  }
+  .tagline {
+    text-align: center;
+  }
+  .story {
+    text-align: center;
+  }
+  .overview {
+    text-align: center;
+  }
+  .poster {
+    margin-top: 30px;
+  }
+  .share_section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons_wrap {
+    margin-top: 15px;
+  }
+}

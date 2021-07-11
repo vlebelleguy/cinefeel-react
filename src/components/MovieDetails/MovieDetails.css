@@ -1,0 +1,143 @@
+.container {
+  justify-content: flex-end;
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+}
+
+.movie_details {
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin-right: 75px;
+  display: flex;
+  z-index: 10;
+  width: 40%;
+}
+
+.rating {
+  text-transform: uppercase;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  color: #ffd32a;
+  font-size: 20px;
+  display: flex;
+}
+
+.icon_active {
+  margin-right: 5px;
+  color: "#ffd32a";
+}
+
+.imdb_button {
+  text-decoration: none;
+  background: #ffd32a;
+  border-radius: 5px;
+  width: fit-content;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #000000;
+  box-shadow: none;
+  font-size: 10px;
+  cursor: pointer;
+  height: 100%;
+  border: none;
+}
+
+.imdb_button > p {
+  vertical-align: middle;
+  padding: 2.5px 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.tagline {
+  font-family: "Tiempos Fine";
+  font-style: italic;
+  font-weight: bold;
+  color: #ffd32a;
+  font-size: 20px;
+}
+
+.sub_details {
+  flex-direction: row;
+  margin-top: 10px;
+  color: #81807f;
+  display: flex;
+}
+
+.movie_info {
+  align-items: center;
+  margin-right: 10px;
+  display: flex;
+}
+
+.icon_inactive {
+  margin-right: 5px;
+}
+
+.about_section {
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: row;
+  margin-top: 30px;
+  display: flex;
+}
+
+.left_wrap {
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 15px;
+  display: flex;
+  width: 400px;
+}
+
+.story {
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.overview {
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.right_wrap {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.poster {
+  width: 150px;
+  object-fit: contain;
+}
+
+.share_section {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 50px 0;
+  display: flex;
+}
+
+.share_title {
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #ffd32a;
+  font-size: 25px;
+}
+
+.share_button {
+  margin-right: 10px;
+}

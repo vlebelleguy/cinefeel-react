@@ -1,0 +1,40 @@
+.header {
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 0 0 0;
+  flex-direction: row;
+  position: fixed;
+  display: flex;
+  z-index: 100;
+  height: 60px;
+  top: 0;
+}
+
+.logo_header {
+  object-fit: contain;
+  margin: 0 50px;
+  display: flex;
+  width: 200px;
+}
+
+.search_input {
+  background: transparent;
+  font-weight: bold;
+  box-shadow: none;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  outline: none;
+  height: 30px;
+  width: 300px;
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+}
+
+.search_input::placeholder {
+  color: #ffffff;
+}
+
+.movie_list {
+  position: fixed;
+}

@@ -1,0 +1,33 @@
+.random_button {
+  box-shadow: 0 0 20px #ffd32a;
+  background-color: #ffd32a;
+  justify-content: center;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+  position: fixed;
+  font-size: 30px;
+  display: flex;
+  height: 60px;
+  bottom: 40px;
+  z-index: 100;
+  width: 60px;
+  left: 50px;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 -10px #ffd32a;
+  }
+  40% {
+    box-shadow: 0 0 20px #ffd32a;
+  }
+  60% {
+    box-shadow: 0 0 20px #ffd32a;
+  }
+  100% {
+    box-shadow: 0 0 -10px #ffd32a;
+  }
+}

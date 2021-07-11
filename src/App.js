@@ -1,9 +1,22 @@
+// PACKAGES IMPORT
+import React, { useState } from "react";
+
+// CSS IMPORT
 import "./App.css";
+import "./assets/fonts/stylesheet.css";
+
+// COMPONENTS IMPORT
+import MovieCard from "./components/MovieCard/MovieCard";
+import SearchEngine from "./components/SearchEngine/SearchEngine";
 
 function App() {
+  const firstMovie = 475557;
+  const [movieId, setMovieId] = useState(firstMovie);
+
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="App">
+      <SearchEngine setMovieId={setMovieId} />
+      <MovieCard movieId={movieId} />
     </div>
   );
 }

@@ -21,7 +21,7 @@ const SearchEngine = ({ setMovieId }) => {
       const fetchData = async () => {
         try {
           const response = await axios.get(
-            `https://api.themoviedb.org/3/search/movie/?query=${search}&api_key=6038af3ad7c9f321fdadd7de299f81e1`
+            `https://api.themoviedb.org/3/search/movie/?query=${search}&api_key=${process.env.REACT_APP_TMDB_KEY}`
           );
           setMovies(response.data);
         } catch (error) {

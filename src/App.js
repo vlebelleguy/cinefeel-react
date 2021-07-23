@@ -9,6 +9,8 @@ import "./assets/fonts/stylesheet.css";
 import MovieCard from "./components/MovieCard/MovieCard";
 import SearchEngine from "./components/SearchEngine/SearchEngine";
 
+require("dotenv").config();
+
 function App() {
   const firstMovie = 475557;
   const [movieId, setMovieId] = useState(firstMovie);
